@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // Tumhara Sahi MongoDB URL
-const MONGO_URI = 'mongodb+srv://Admin:Abhi%401996@abhishek.qs5mdz0.mongodb.net/invbill?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://admin:Abhi1996@abhishek.qs5mdz0.mongodb.net/invbill?retryWrites=true&w=majority';
 mongoose.connect(MONGO_URI)
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log('DB Error:', err));
